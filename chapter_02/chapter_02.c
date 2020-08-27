@@ -8,7 +8,7 @@
 int chapter_02() {
     int i = 200;
 
-    printf("10进制数据:%d,转换为16进制 0x%x\n", i, i);
+    printf("10进制数据:%d,转换为16进制:0x%x\n", i, i );
 
     return 0;
 }
