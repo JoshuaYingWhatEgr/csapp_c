@@ -6,6 +6,8 @@
 
 #include "chapter_03/3-5-1.h"
 
+#include "chapter_03/3-8.h"
+
 int main() {
 
     chapter_02();
@@ -120,6 +122,8 @@ int main() {
     printf("%d\n", (char) (-5 - 1));
 
     printf("%d\n", scale(1, 2, 3));
+
+    addq(1,2);
 
     return 0;
 }
