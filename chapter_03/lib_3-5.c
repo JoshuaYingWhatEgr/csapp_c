@@ -22,7 +22,7 @@ void decode1(long *xp, long *yp, long *zp) {
 
     long rax = *zp;//rax存储于%rax中
 
-     *yp = r8;
+    *yp = r8;
 
     *zp = rcx;
 

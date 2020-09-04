@@ -4,6 +4,8 @@
 
 #include "chapter_02/show_bytes.h"
 
+#include "chapter_03/3-5-1.h"
+
 int main() {
 
     chapter_02();
@@ -116,6 +118,8 @@ int main() {
     //转换成10进制  -6
 
     printf("%d\n", (char) (-5 - 1));
+
+    printf("%d\n", scale(1, 2, 3));
 
     return 0;
 }
