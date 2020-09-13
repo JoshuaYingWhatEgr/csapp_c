@@ -8,6 +8,8 @@
 
 #include "chapter_03/3-8.h"
 
+#include "chapter_03/sum.h"
+
 int main() {
 
     chapter_02();
@@ -123,7 +125,9 @@ int main() {
 
     printf("%d\n", scale(1, 2, 3));
 
-    addq(1,2);
+    addq(1, 2);
 
+
+    sum(0, 0);
     return 0;
 }
