@@ -8,7 +8,15 @@
 
 #include "chapter_03/3-8.h"
 
-#include "chapter_03/sum.h"
+#include "chapter_03/sums.h"
+
+#include "chapter_03/change.h"
+
+#include "chapter_03/rfact.h"
+#include "chapter_03/buffer.h"
+#include "chapter_03/fun.h"
+
+int sums(int *a, int n);
 
 int main() {
 
@@ -128,6 +136,38 @@ int main() {
     addq(1, 2);
 
 
-    sum(0, 0);
+//    sum(0, 0);
+
+    int x = 50, y = 100;
+
+    printf("------------------\n");
+
+    printf("x= %d\t,y= %d\n", x, y);
+
+    chage(x, y);
+
+    printf("但是main函数中的成员变量还没有变x= %d\t,y= %d\n", x, y);
+
+    int temp = x;
+
+    x = y;
+
+    y = temp;
+
+    printf("x= %d\t,y= %d\n", x, y);
+
+    long l = rfact(3);
+
+    printf("%d\n", l);
+
+//    echo();
+
+    fun(20);
+
+    int array[2] = {1, 2};
+
+    int vals = sums(array, 2);
+
+    printf("%d\n", vals);
     return 0;
 }

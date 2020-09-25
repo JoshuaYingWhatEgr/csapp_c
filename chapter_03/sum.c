@@ -2,7 +2,7 @@
 // Created by JoshuaYingWhat on 2020/9/11.
 //
 
-#include "sum.h"
+#include "sums.h"
 
 #include <stdio.h>
 
