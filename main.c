@@ -16,7 +16,15 @@
 #include "chapter_03/buffer.h"
 #include "chapter_03/fun.h"
 
+#include "chapter_07/f.h"
+
+#include "chapter_07/doublef.h"
+
 int sums(int *a, int n);
+
+int xx = 456;
+
+int yy = 789;
 
 int main() {
 
@@ -131,7 +139,7 @@ int main() {
 
     printf("%d\n", (char) (-5 - 1));
 
-    printf("%d\n", scale(1, 2, 3));
+//    printf("%d\n", scale(1, 2, 3));
 
     addq(1, 2);
 
@@ -158,7 +166,7 @@ int main() {
 
     long l = rfact(3);
 
-    printf("%d\n", l);
+//    printf("%d\n", l);
 
 //    echo();
 
@@ -168,6 +176,15 @@ int main() {
 
     int vals = sums(array, 2);
 
-    printf("%d\n", vals);
+//    printf("%d\n", vals);
+
+    f();
+
+    printf("xx = 0x%x yy = 0x%x\n", xx, yy);
+
+    doublef();
+
+    printf("xx = 0x%x yy = 0x%x\n", x, yy);
+
     return 0;
 }
