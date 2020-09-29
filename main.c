@@ -20,11 +20,15 @@
 
 #include "chapter_07/doublef.h"
 
+#include "chapter_07/x.h"
+
 int sums(int *a, int n);
 
 int xx = 456;
 
 int yy = 789;
+
+int x = 10;
 
 int main() {
 
@@ -180,11 +184,13 @@ int main() {
 
     f();
 
-    printf("xx = 0x%x yy = 0x%x\n", xx, yy);
+    printf("xx = 0x%x yy = %d\n", xx, yy);
 
     doublef();
 
-    printf("xx = 0x%x yy = 0x%x\n", x, yy);
+    printf("xx = 0x%x yy = %d\n", x, yy);
+
+    define_X();
 
     return 0;
 }
